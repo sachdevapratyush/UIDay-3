@@ -1,0 +1,21 @@
+#header {
+    background-color: #f3f3f3;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+.three-column-layout:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#content .col-1, #content .col-2, #content .col-3 {
+    float: left;
+}
+.col-1, .col-3 {
+    width: 25%;
+    background: #f8f8f8;
+}
+.col-2 {
+    width: 50%;
+}
